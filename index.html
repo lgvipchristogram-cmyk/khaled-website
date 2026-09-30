@@ -5,277 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>EN KHALED ELSHARKAWY</title>
+    <title>Khaled Calculator</title>
 
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         NAVBAR
-    ========================== -->
+    <main class="calculator">
 
-    <nav>
+        <h1>Calculator</h1>
 
-        <h2>EN KHALED</h2>
+        <input
+            type="text"
+            id="display"
+            readonly
+            placeholder="0"
+        >
 
-        <ul>
-            <li>
-                <a href="#home">Home</a>
-            </li>
+        <div class="buttons">
 
-            <li>
-                <a href="#about">About</a>
-            </li>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">/</button>
 
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator">*</button>
 
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator">-</button>
 
-    </nav>
+            <button class="number">0</button>
+            <button class="number">.</button>
+            <button class="equals">=</button>
+            <button class="operator">+</button>
 
-
-    <!-- =========================
-         HOME
-    ========================== -->
-
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <img
-                src="./profile.jpg"
-                alt="Khaled Elsharkawy"
-                class="profile-img"
-            >
-
-            <p class="welcome">
-                WELCOME TO MY WEBSITE
-            </p>
-
-            <h1>
-                I'm Khaled Elsharkawy
-            </h1>
-
-            <h2>
-                Computer Science Student & Future Developer
-            </h2>
-
-            <p class="description">
-                I'm learning programming and building my skills
-                to become a professional developer.
-            </p>
-
-            <a
-                href="#projects"
-                class="hero-btn"
-            >
-                View My Projects
-            </a>
+            <button class="backspace">⌫</button>
+           <button class="percent">%</button>
+            <button class="clear">C</button>
 
         </div>
 
-    </section>
+    </main>
 
-
-    <!-- =========================
-         ABOUT
-    ========================== -->
-
-    <section class="about" id="about">
-
-        <div class="about-content">
-
-            <p class="section-title">
-                ABOUT ME
-            </p>
-
-            <h2>
-                Who I Am
-            </h2>
-
-            <p>
-                I'm Khaled Elsharkawy, a Computer Science student
-                interested in programming, web development and technology.
-            </p>
-
-            <p>
-                I'm currently building my skills step by step
-                and working on real projects to become a professional developer.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         PROJECTS
-    ========================== -->
-
-    <section class="projects" id="projects">
-
-        <div class="projects-content">
-
-            <p class="section-title">
-                MY WORK
-            </p>
-
-            <h2>
-                My Projects
-            </h2>
-
-
-            <div class="project-cards">
-
-
-                <!-- PROJECT 1 -->
-
-                <div class="project-card">
-
-                    <div class="project-image">
-
-                        <img
-                            src="./project1.jpg"
-                            alt="My First Website"
-                        >
-
-                    </div>
-
-
-                    <div class="project-info">
-
-                        <h3>
-                            My First Website
-                        </h3>
-
-                        <p>
-                            My first portfolio website built using
-                            HTML and CSS.
-                        </p>
-
-                        <a
-                            href="./index.html"
-                            target="_blank"
-                        >
-                            View Project
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- PROJECT 2 -->
-
-                <div class="project-card">
-
-                    <div class="project-image calculator-preview">
-
-                        <img
-                            src="./calculator/calculator-preview.jpg"
-                            alt="Calculator App"
-                        >
-
-                    </div>
-
-
-                    <div class="project-info">
-
-                        <h3>
-                            Calculator App
-                        </h3>
-
-                        <p>
-                            A functional calculator built using
-                            HTML, CSS and JavaScript.
-                        </p>
-
-                        <a
-                            href="./calculator/index.html"
-                            target="_blank"
-                        >
-                            View Project
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         CONTACT
-    ========================== -->
-
-    <section class="contact" id="contact">
-
-        <div class="contact-content">
-
-            <p class="section-title">
-                GET IN TOUCH
-            </p>
-
-            <h2>
-                Contact Me
-            </h2>
-
-            <p>
-                Have a question or want to work together?
-                Send me a message.
-            </p>
-
-
-            <form>
-
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                >
-
-                <input
-                    type="email"
-                    placeholder="Your Email"
-                >
-
-                <textarea
-                    placeholder="Your Message"
-                ></textarea>
-
-                <button type="submit">
-                    Send Message
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
-    <footer>
-
-        <p>
-            © 2026 EN KHALED ELSHARKAWY. All Rights Reserved.
-        </p>
-
-    </footer>
+    <script src="./script.js"></script>
 
 </body>
 
